@@ -1,6 +1,18 @@
-<h1>Results page!!!</h1>
+<html>
+<head> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">    
+<title>
+</title>    
+    <div class="container">
+    <h1>Results page!!!</h1>
 
-    <% data.forEach(function(d1){ %>
-       <h3><%=d1["name"]%>-</h3> <p><%=d1["description"]%></p>
+        <% data.forEach(function(d1){ %>
+            <div class="panel panel-default">
+                    <div class="panel-body"><h3><%=d1["name"]%>-</h3> <p><%=d1["description"]%></p></div>
+                  </div>
+        
 
-  <%  })%>
+    <%  })%>
+    <div>
+</head>        
+</html>    

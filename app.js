@@ -6,8 +6,8 @@ var GitHub = require('github-api');
 
 // basic auth
 var gh = new GitHub({
-   username: '*',
-   password: '*'
+    ClientID: 'cc8709b9ca60cb3ae1c6',
+    ClientSecret: 'e19b5de6ebdf969ec6d0384cbf87d6a35736141c'
    /* also acceptable:
       token: 'MY_OAUTH_TOKEN'
     */
